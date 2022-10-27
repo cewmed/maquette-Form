@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: darkorchid;
+        }
+        .wrapper{
+            width: 370px;
+            margin: 130px auto 0;
+        }
+        .select-btn, .opt li{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .select-btn{
+            background-color: white;
+            height: 65px;
+            font-size: 22px;
+            display: flex;
+            padding:  0 20px;
+            border-radius: 7px;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+        }
+        .select-btn i{
+            font-size: 31px;
+        }
+        .content{
+            padding: 20px;
+            margin-top: 15px;
+            border-radius: 7px;
+            background-color: white;
+        }
+        .content .opt{
+            margin-top: 10px;
+            max-height: 150px;
+            overflow-y: auto;
+        }
+        .opt li{
+            height: 30px;
+            border-radius: 5px;
+            font-size: 21px;
+            border-radius: 5px;
+        }
+        .opt li:hover{
+            background-color: aliceblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="select-btn">
+            <span>filière</span>
+            <i class="fa fa-caret-down icon"></i>
+        </div>
+        <div class="content">
+            <ul class="opt">
+                <li>cpd</li>
+                <li>iage</li>
+                <li>ttl</li>
+                <li>glrs</li>
+                <li>cdsd</li>
+                <li>mosief</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

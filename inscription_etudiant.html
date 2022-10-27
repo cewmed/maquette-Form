@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            margin-top: 20vh;
+            background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        form{
+            background-color: #D9D9D9;
+            padding: 30px;
+            border-radius: 8px;
+            height: 70vh;
+        }
+        p{
+            text-align: center;
+            font-size: 21px;
+            text-transform: uppercase;
+        }
+        .cap{
+            text-transform: capitalize;
+            font-size: 19px;
+        }
+        .a{
+            width: 200px;
+            height: 6vh;
+        }
+        #left1{
+            margin-left: 25px;
+        }
+        #lab{
+            margin-left: 75px;
+        }
+        #dab{
+            margin-left: 53px;
+        }
+        #left4{
+            margin-left: 72px;
+            margin-top: 25px;
+            width: 200px;
+        }
+        #left5{
+            margin-left: 86px;
+            margin-top: 25px;
+            width: 203px;
+        }
+        #last{
+            margin-top: 20px;
+        }
+        #last-right{
+            margin-left: 180px;
+        }
+        .upp{
+            padding: 10px;
+            text-transform: uppercase;
+            line-height: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <p>inscription</p><br>
+        <label for=""class="cap">  année scolaire </label> <input type="date" name="" id="left1" class="a"><br>
+        <label for=""class="cap"> nom & <br> prénom :</label> <input class="a" id="lab" placeholder=" votre nom et prénom" type="text"><br>
+        <label for=""class="cap"> date de <br> naissance :</label> <input type="date" id="dab" class="a" name="" id=""><br>
+        <label for=""class="cap">adresse :</label> <select class="upp" class="a" name="" id="left4"><option value=""></option><option value="">point e</option>
+        <option value="">mermoz</option>
+        <option value="">sicap</option>
+        <option value="">sacré coeur </option>
+        <option value="">liberté</option>
+        <option value="">castor</option>
+        <option value="">médina</option>
+        <option value="">colobanne</option>
+        <option value="">dakar - plateau</option>
+        <option value="">mariste</option>
+        <option value="">dalifort</option>
+        <option value="">pikine</option>
+        <option value="">guediawaye</option></select><br>
+        <label for=""class="cap"> classe :</label><select name="" class="upp" class="a" id="left5"><option value=""></option>
+            <option value="">licence 1</option>
+            <option value="">licence 2</option>
+            <option value="">licence 3</option>
+            <option value="">master 1</option>
+            <option value="">master 2</option></select><br> 
+        <input type="submit" class="cap" id="last" value="annuler">
+        
+        <button class="cap" id="last-right"><a href="./S1__inscription_étudiant.html">suivant</a> </button>
+    </form>
+</body>
+</html>

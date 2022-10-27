@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        form{
+            margin-top: 16%;
+            background-color: #D9D9D9;
+            border-color: black solid 1px;
+            border-radius: 10px;
+            height: 50vh;
+            width: 30%;
+            padding: 30px;
+        }
+        .to{
+            text-transform: capitalize;
+            font-size: 21px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-bottom: 15px;
+        }
+        .size{
+            width: 105%;
+            padding: 12px;
+            text-transform: uppercase ;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 10px;
+          
+
+        }
+     
+        #lef{
+            width: 103%;
+            margin-top: top 92px;
+            border-radius: 10px;
+            height: 8vh;
+        }
+        .fin{
+            text-transform: capitalize;
+            background-color: black;
+            color: white;
+            border-radius: 8px;
+            margin-top: 10%;
+            cursor: pointer;
+        }
+        #fi:hover{
+            background-color: red;
+        }
+        #fi{
+           margin-left: 30px;
+        }
+        #in:hover{
+            background-color: greenyellow;
+        }
+        #in{
+            margin-left: 180px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+
+        <legend class="to">filière :</legend>
+    <select name="" id=""class="size">
+        <option value=""></option>
+        <option value=""class>glrs</option>
+        <option value="">cdsd</option>
+        <option value="">cpd</option>
+        <option value="">iage</option>
+        <option value="">ttl</option>
+        <option value="">mosief</option>
+    </select>
+
+    <legend class="to">niveau :</legend>
+    <select name="" id=""class="size">
+        <option value=""></option>
+        <option value="">licence 1</option>
+        <option value="">licence 2</option>
+        <option value="">licence 3</option>
+        <option value="">master 1</option>
+        <option value="">master 2</option>
+    </select><br>
+    <label for="" class="to" id="f">libellé :</label><br>
+    <input type="text" id="lef">
+    
+    <input type="submit" value="annuler"class="fin" id="fi">
+    <input type="submit" value="créer" class="fin"id="in">
+    </form>
+    
+</body>
+</html>
